@@ -2915,7 +2915,7 @@
 			var self = this;
 
 			if (self.isLocked || self.isOpen || (self.settings.mode === 'multi' && self.isFull())) return;
-			self.focus();
+			//self.focus();
 			self.isOpen = true;
 			self.refreshState();
 			self.$dropdown.css({visibility: 'hidden', display: 'block'});
